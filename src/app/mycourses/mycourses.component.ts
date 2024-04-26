@@ -35,5 +35,18 @@ export class MycoursesComponent {
       course.code.toLowerCase().includes(this.filtervalue.toLowerCase()) ||
       course.coursename.toLowerCase().includes(this.filtervalue.toLowerCase())   
     )
+  } 
+
+  //För att sortera kurser vid click 
+  sortCourseCode(){
+    this.courses.sort((a, b) => (a.code > b.code) ? 1 : -1)
+  } 
+
+  sortCourseName(){
+    this.courses.sort((a, b) => (a.coursename > b.coursename) ? 1 : -1)
+  } 
+
+  sortCourseProgression(){
+    this.courses.sort((a, b) => (a.progression > b.progression) ? 1 : -1)
   }
 }
