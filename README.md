@@ -1,6 +1,7 @@
 # Moment4TS
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.4. It is an app tht lets you view the courses that 
+the programm Webbutveckling (Web Development) contains. The information about the courses is gathered from an API using HTTP calls. You can both filter the courses by name and code and sort them. 
 
 ## Development server
 
